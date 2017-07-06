@@ -4,7 +4,9 @@
   "description": "Starter files for a project that uses Node.js, Express, React, Babel, Webpack, and Redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Masashi Schafer",
   "license": "ISC",
@@ -13,6 +15,8 @@
     "babel-loader": "^7.1.1",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^3.0.0"
+    "express": "^4.15.3",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "^1.11.0"
   }
 }
