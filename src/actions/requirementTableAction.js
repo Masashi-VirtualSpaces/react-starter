@@ -7,6 +7,8 @@
 export function addRequirement(name){
   //Add fuctionality here.
   return{
+    //type:"ADD_HERE",
+    //payload: myObject,
     null
   }
 }
@@ -15,6 +17,8 @@ export function addRequirement(name){
 export function removeRequirement(){
   //Add fuctionality here.
   return{
+    //type:"ADD_HERE",
+    //payload: myObject,
     null
   }
 }
@@ -23,6 +27,8 @@ export function removeRequirement(){
 export function editRequirement(name){
   //Add fuctionality here.
   return{
+    //type:"ADD_HERE",
+    //payload: myObject,
     null
   }
 }

@@ -7,6 +7,8 @@
 export function addModule(name){
   //Add fuctionality here.
   return{
+    //type:"ADD_HERE",
+    //payload: myObject,
     null
   }
 }
@@ -15,6 +17,8 @@ export function addModule(name){
 export function removeModule(){
   //Add fuctionality here.
   return{
+    //type:"ADD_HERE",
+    //payload: myObject,
     null
   }
 }
@@ -23,6 +27,8 @@ export function removeModule(){
 export function editModule(name){
   //Add fuctionality here.
   return{
+    //type:"ADD_HERE",
+    //payload: myObject,
     null
   }
 }
