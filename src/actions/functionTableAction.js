@@ -7,7 +7,8 @@
 export function addFunction(name){
   //Add fuctionality here.
   return{
-    null
+    type:'ADD_FUNCTION',
+    payload: name,
   }
 }
 
@@ -15,7 +16,8 @@ export function addFunction(name){
 export function removeFunction(){
   //Add fuctionality here.
   return{
-    null
+    type:'REMOVE_FUNCTION',
+    payload:null,
   }
 }
 
@@ -23,6 +25,7 @@ export function removeFunction(){
 export function editFunction(name){
   //Add fuctionality here.
   return{
-    null
+    type:'EDIT_FUNCTION',
+    payload:name,
   }
 }

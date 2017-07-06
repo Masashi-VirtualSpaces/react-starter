@@ -3,10 +3,14 @@
 import {combineReducers} from "redux";
 
 //Import all needed reducers here!-------------
-
+import functionReducer from "./functionTableReducer";
+import moduleReducer from "./moduleTableReducer";
+import requirementReducer from "./requirementTableReducer";
 //---------------------------------------------
 
 export default combineReducers({
   //list reducers here for export in store.js
-
+  functionReducer,
+  moduleReducer,
+  requirementReducer,
 })
