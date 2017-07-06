@@ -1,6 +1,4 @@
-import React from 'react';
-import {render} from 'react-dom';
-import App from './components/App';
+//This file handles the reducers for Redux.
 
 import {combineReducers} from "redux";
 
@@ -10,7 +8,5 @@ import {combineReducers} from "redux";
 
 export default combineReducers({
   //list reducers here for export in store.js
-  
-})
 
-render(<App/>,document.getElementById('app'));
+})
