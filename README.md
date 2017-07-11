@@ -9,9 +9,51 @@ Setup
 ---
 npm install
 
+npm install express
+
+npm install webpack
+
+npm install webpack-dev-middleware
+
+npm install babel-loader
+
+npm install babel-core
+
+npm install babel-plugin-transform-decorators-legacy
+
+npm install babel-preset-latest
+
+npm install react
+
+npm install redux
+
+npm install react-redux
+
+npm install babel-loader
+
+npm install babel-preset-react
+
+npm install react-dom
+
+npm redux-logger          //May not need
+
+npm redux-thunk           //May not need
+
+npm install redux-promise-middleware    //May not need
+
+--------------------------------------------------------------------------------
+
 Compile
 ---
 npm run compile
+
+--------------------------------------------------------------------------------
+
+Start
+---
+npm start
+
+Listens on localhost:3000
 
 --------------------------------------------------------------------------------
 This section describes the initial folder structures of the project. A short
